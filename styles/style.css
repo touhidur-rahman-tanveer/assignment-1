@@ -4,11 +4,12 @@
 }
 
 /* ---------Header Section CSS ------- */
-.azeret-mono {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+}
     
-  }
+  
 .header-container{
     background-image: url(../assets/Hero-bg.png);
     height: 652px;
@@ -57,5 +58,169 @@
     font-weight: 600;
     text-align: center;
     text-decoration: none;
+
+}
+
+
+/* ------------main-container section CSS---------------- */
+
+.main-container{
+    width: 1540px;
+    height: 1795px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 200px;
+    align-items: center;
+}
+
+/* <!-- ---------heading section---------- --> */
+
+.web-deb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.web-deb h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.web-deb p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* ---------Coding Section CSS ------- */
+
+.coding-sec{
+    display: flex;
+    margin-top: 50px;
+    gap: 200px;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 1346px;
+    height: 400px;
+    align-items: center;
+
+}
+.coding-left-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+
+
+}
+
+.coding-left-sec h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;  
+    
+        
+}
+
+.coding-left-sec p{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    
+}
+
+.coding-left-sec button{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 150px;
+    height: 50px;
+    background-color: white ;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.coding-left-sec button a{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+
+}
+.coding-right-sec{
+
+}
+
+
+/* ---------modern-web Section CSS ------- */
+
+.modern-web{
+    display: flex;
+    margin-top: 50px;
+    gap: 200px;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 1346px;
+    height: 400px;
+    align-items: center;
+
+}
+.modern-web-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+
+
+}
+
+.modern-web-right h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    
+        
+}
+
+.modern-web-right p{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    
+}
+
+.modern-web-right button{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 150px;
+    height: 50px;
+    background-color: white ;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.modern-web-right button a{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+
+}
+.modern-web-left{
 
 }
