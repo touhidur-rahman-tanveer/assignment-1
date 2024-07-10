@@ -379,7 +379,7 @@
     width: 1490px;
     height: 415px;
     border-radius: 16px;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 200px;
     display: flex;
     flex-direction: column;
@@ -426,7 +426,6 @@
     
 }
 
-
 #submit-btn{
     width: 150px;
     height: 65px;
@@ -448,5 +447,29 @@
     text-decoration: none;
 
 }
-/* ******************footer Section***************************** */
+
+
+/* ******************Contact Section***************************** */
+#contact-section{
+    
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 800px;
+    align-items: center;
+    padding: 30px;
+}
+#contact-commit{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+.icon-container {
+    display: flex;
+    gap: 20px;
+    
+}
+
+
 
